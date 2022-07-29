@@ -1,0 +1,78 @@
+{
+    "intents": [
+        {   "tag": "greeting",
+            "patterns": [
+                "Hi", "Hello", "Howdy", "Hi there", "Are you there?", "Hey"
+            ],
+            "responses": [
+                "Hello", "Good to see you again", "Hi there, how can I help?"
+            ]
+        },
+        {   "tag": "goodbye",
+            "patterns": [
+                "Goodbye", "see you later", "cya", "bye", "have a nice day"
+            ],
+            "responses": [
+                "See you later, you can always reach us from here!"
+            ]
+        },
+        {
+            "tag": "shop_info",
+            "patterns": [
+                "what do you sell","who are you", "what is flowerly", "what are you doing"
+            ],
+            "responses": [
+                "Flowerly is a small family bussiness located in X and we've been putting hard for our customers for 14 years! Our products include flowers, flowersets, and man-made chocolate for you and your loved ones."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","are you old", "are you young", "what is your age"
+            ],
+            "responses": [
+                "Flowerly is 14 years old, if that's what you are asking!", 
+                "Flowerly is helping people get flowers since 2008!"
+            ]
+        },
+		{
+            "tag": "hours",
+            "patterns": [
+                "when are you open", "what are your hours", "hours of works", "hours of operation", "when I can reach you", "are you open"
+            ],
+            "responses": [
+                "We are open from 8-17 on every day except Sunday!", 
+                "You can reach us 8 am to 5 5pm from Monday to Saturday"
+            ]
+        },
+		{
+            "tag": "inventory",
+            "patterns": [
+                "which flowers do you have", "how many flowers do you have", "do you have lillies", "do you have roses"
+            ],
+            "responses": [
+                "The flowers you can get from us are listed bellow!\nRoses\nLillies", 
+                "You can reach us 8 am to 5pm from Monday to Saturday"
+            ]
+        },
+        {
+            "tag": "recommendation",
+            "patterns": [
+                "I'm not sure what to buy", "I am not sure what to order", "Do you have favorites?", "What would you recommend?", "What's on the sale"
+            ],
+            "responses": [
+                "For today roses are 10% off!",
+                "If you want to go classical you can never go wrong with the lillies!. White lillies represent purity and modesty."
+            ]
+        },
+        {
+            "tag": "order_info",
+            "patterns": [
+                "how to order", "how to order flowers", "how can I order", "where is order"
+            ],
+            "responses": [
+                "You can order flowers from this link: flowerly.com/order"
+            ]
+        }
+    ]
+}
